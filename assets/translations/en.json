@@ -1,0 +1,49 @@
+{
+    "language": "Language",
+    "chooseLanguage": "Choose Language",
+    "locale_en": "English",
+    "locale_my": "Myanmar",
+    "locale_zh": "Chinese",
+  
+    "appName": "Ecommerce",
+    "developerName": "Kyaw Zayar Tun",
+  
+    "nav_home": "Home",
+    "nav_settings": "Settings",
+  
+    "msg": "{} are written in the {} language",
+    "msg_named": "Easy localization is written in the {lang} language",
+    "msg_mixed": "{} are written in the {lang} language",
+    "gender": {
+      "male": "Hi man ;) {}",
+      "female": "Hello girl :) {}",
+      "other": "Hello {}"
+    },
+    "day": {
+      "zero": "{} day",
+      "one": "{} day",
+      "two": "{} days",
+      "few": "{} days",
+      "many": "{} days",
+      "other": "{} days"
+    },
+    "money": {
+      "zero": "You not have money",
+      "one": "You have {} dollar",
+      "many": "You have {} dollars",
+      "other": "You have {} dollars"
+    },
+    "money_args": {
+      "zero": "{} has no money",
+      "one": "{} has {} dollar",
+      "many": "{} has {} dollars",
+      "other": "{} has {} dollars"
+    },
+    "money_named_args": {
+      "zero": "{name} has no money",
+      "one": "{name} has {money} dollar",
+      "many": "{name} has {money} dollars",
+      "other": "{name} has {money} dollars"
+    }
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "language": "ဘာသာစကား",
+    "chooseLanguage": "ဘာသာစကားကို ရွေးပါ",
+    "locale_en": "အင်္ဂလိပ်",
+    "locale_my": "မြန်မာ",
+    "locale_zh": "တရုတ်",
+  
+    "appName": "Ecommerce",
+    "developerName": "ကျော်ဇေယျာထွန်း",
+  
+    "nav_home": "ပင်မစာမျက်နှာ",
+    "nav_settings": "ဆက်တင်များ",
+  
+    "msg": "{} ကို {} ပရိုဂရမ်းမင်းဘာသာစကားဖြင့် ရေးသားထားသည်။",
+    "msg_named": "Easy localization ကို {lang} ပရိုဂရမ်းမင်းဘာသာစကားဖြင့် ရေးသားထားသည်။",
+    "msg_mixed": "{} ကို {lang} ဘာသာစကားဖြင့် ရေးသားထားသည်။",
+    "gender": {
+      "male": "Hi man ;) {}",
+      "female": "Hello girl :) {}",
+      "other": "Hello {}"
+    },
+    "day": {
+      "zero": "{} day",
+      "one": "{} day",
+      "two": "{} days",
+      "few": "{} days",
+      "many": "{} days",
+      "other": "{} days"
+    },
+    "money": {
+      "zero": "You not have money",
+      "one": "You have {} dollar",
+      "many": "You have {} dollars",
+      "other": "You have {} dollars"
+    },
+    "money_args": {
+      "zero": "{} has no money",
+      "one": "{} has {} dollar",
+      "many": "{} has {} dollars",
+      "other": "{} has {} dollars"
+    },
+    "money_named_args": {
+      "zero": "{name} has no money",
+      "one": "{name} has {money} dollar",
+      "many": "{name} has {money} dollars",
+      "other": "{name} has {money} dollars"
+    }
+  }
+  
