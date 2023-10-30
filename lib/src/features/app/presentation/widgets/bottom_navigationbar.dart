@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:starter_app/src/features/app/presentation/views/bottom_nav_controller.dart';
 import 'package:starter_app/src/l10n/locale_keys.g.dart';
 
 class BottomNavBar extends ConsumerWidget {
@@ -9,15 +10,15 @@ class BottomNavBar extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // final index = ref.watch(bottomNavControllerProvider) ?? 0;
+    final index = ref.watch(bottomNavControllerProvider) ?? 0;
 
     return NavigationBar(
       indicatorColor: Theme.of(context).colorScheme.inversePrimary,
       animationDuration: const Duration(milliseconds: 400),
-      selectedIndex: 0,
-      // onDestinationSelected: (index) => ref
-      //     .read(bottomNavControllerProvider.notifier)
-      //     .setAndPersistValue(index),
+      selectedIndex: index,
+      onDestinationSelected: (index) => ref
+          .read(bottomNavControllerProvider.notifier)
+          .setAndPersistValue(index),
       destinations: [
         NavigationDestination(
           icon: const Icon(Icons.home),

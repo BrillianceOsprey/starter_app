@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:starter_app/src/initialization/app_initialization.dart';
+import 'package:starter_app/src/initialization/app_initialization_hive.dart';
 import 'package:starter_app/src/initialization/app_initialization_localization.dart';
 import 'package:starter_app/src/initialization/initialization.dart';
 
@@ -11,6 +12,8 @@ Future<void> main() async {
 
   // easy localizations
   await initialization.setupEasyLocalization();
+  // init Hive flutter
+  await initialization.setupHive();
   // create a container configured with all the required repositories
   final container = await initialization.createMainProviderContainer(
     overrides: [],

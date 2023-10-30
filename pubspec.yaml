@@ -25,6 +25,9 @@ dependencies:
   dynamic_color: ^1.6.8
   easy_localization: ^3.0.3
   flutter_logs: ^2.1.11
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
 
 
 
@@ -51,7 +54,7 @@ scripts: derry.yaml
 
 flutter:
   uses-material-design: true
-  generate: true
+  # generate: true
 
   assets:
     - assets/images/
