@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.18.0
-  envied: ^0.3.0+3
+  envied: ^0.5.1
   equatable: ^2.0.5
   dartz: ^0.10.1
   path_provider: ^2.1.1
@@ -38,7 +38,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   import_sorter: ^4.6.0
   build_runner: 
-  envied_generator: ^0.3.0+3
+  envied_generator: ^0.5.1
   custom_lint: ^0.5.4
   riverpod_generator: ^2.3.3
   riverpod_lint: ^2.1.1
