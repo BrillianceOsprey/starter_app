@@ -1,4 +1,4 @@
-// ignore_for_file: unnecessary_breaks
+// ignore_for_file: unnecessary_breaks, inference_failure_on_function_invocation, lines_longer_than_80_chars
 
 import 'package:auto_route/auto_route.dart';
 import 'package:dynamic_color/dynamic_color.dart';
@@ -186,7 +186,6 @@ class DynamicColorUsedState extends ChangeNotifier {
   // ignore: avoid_positional_boolean_parameters
   Future<void> setUseDynamicColor([bool value = true]) async {
     useDynamicColor = value;
-    // ignore: inference_failure_on_function_invocation
     await Hive.box(Keys.keyPrefs).put(Keys.keyUseDynamicColor, value);
     notifyListeners();
   }

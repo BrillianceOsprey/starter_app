@@ -1,4 +1,4 @@
-// ignore_for_file: strict_raw_type
+// ignore_for_file: strict_raw_type, lines_longer_than_80_chars
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/widgets.dart';
