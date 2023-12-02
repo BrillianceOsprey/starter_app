@@ -6,10 +6,11 @@
     "locale_zh": "Chinese",
   
     "appName": "Ecommerce",
-    "developerName": "Kyaw Zayar Tun",
+    "developerName": "Myat Soe",
   
     "nav_home": "Home",
     "nav_settings": "Settings",
+    "nav_carts": "Cart",
   
     "msg": "{} are written in the {} language",
     "msg_named": "Easy localization is written in the {lang} language",

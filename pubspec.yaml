@@ -27,6 +27,10 @@ dependencies:
   flutter_logs: ^2.1.11
   hive: ^2.2.3
   hive_flutter: ^1.1.0
+  lottie: ^2.7.0
+  google_fonts: ^6.1.0
+  json_annotation: ^4.8.1
+  dio: ^5.4.0
 
 
 
@@ -40,7 +44,7 @@ dev_dependencies:
   very_good_analysis: ^5.1.0
   flutter_lints: ^3.0.0
   import_sorter: ^4.6.0
-  build_runner: 
+  build_runner: ^2.4.6
   envied_generator: ^0.3.0+3
   custom_lint: ^0.5.4
   riverpod_generator: ^2.3.3
@@ -59,6 +63,7 @@ flutter:
   assets:
     - assets/images/
     - assets/translations/
+    - assets/lotties/
 
 import_sorter:
   emojis: true # Optional, defaults to false

@@ -6,10 +6,11 @@
     "locale_zh": "တရုတ်",
   
     "appName": "Ecommerce",
-    "developerName": "ကျော်ဇေယျာထွန်း",
+    "developerName": "မြတ်စိုး",
   
     "nav_home": "ပင်မစာမျက်နှာ",
     "nav_settings": "ဆက်တင်များ",
+    "nav_carts": "ကတ်(စ်)",
   
     "msg": "{} ကို {} ပရိုဂရမ်းမင်းဘာသာစကားဖြင့် ရေးသားထားသည်။",
     "msg_named": "Easy localization ကို {lang} ပရိုဂရမ်းမင်းဘာသာစကားဖြင့် ရေးသားထားသည်။",

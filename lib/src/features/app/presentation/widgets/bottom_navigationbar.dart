@@ -25,6 +25,10 @@ class BottomNavBar extends ConsumerWidget {
           label: LocaleKeys.nav_home.tr(),
         ),
         NavigationDestination(
+          icon: const Icon(Icons.shopping_cart),
+          label: LocaleKeys.nav_carts.tr(),
+        ),
+        NavigationDestination(
           icon: const Icon(Icons.settings),
           label: LocaleKeys.nav_settings.tr(),
         ),

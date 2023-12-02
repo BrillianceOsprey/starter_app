@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:starter_app/src/features/app/presentation/views/skeleton_page.dart';
+import 'package:starter_app/src/routes/app_router.dart';
+import 'package:starter_app/src/routes/app_router_observer.dart';
 import 'package:starter_app/src/shared/theme/app_theme.dart';
 
 class AppWidget extends HookConsumerWidget {
@@ -19,7 +21,7 @@ class AppWidget extends HookConsumerWidget {
       builder: (lightDynamic, darkDynamic) {
         final (lightColorScheme, darkColorScheme) =
             AppTheme.getColorSchemes(lightDynamic, darkDynamic);
-        return MaterialApp(
+        return MaterialApp.router(
           title: 'Ecommerce',
           debugShowCheckedModeBanner: false,
 
@@ -43,7 +45,10 @@ class AppWidget extends HookConsumerWidget {
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
           locale: context.locale,
-          home: const SkeletonPage(),
+          // home: const SkeletonPage(),
+          routerConfig: ref
+              .read(appRouterProvider)
+              .config(navigatorObservers: () => [AppRouteObserver()]),
           // routes
         );
       },

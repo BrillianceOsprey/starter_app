@@ -1,0 +1,190 @@
+{
+    "status": "success",
+    "data": {
+        "data": [
+            {
+                "productCode": "P17676",
+                "erpCode": "SHKUFG038",
+                "productName": "FOOD STREAMER PLATE အစားအပေါင်းခံပြား( 17CM)",
+                "price": 3800,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17677",
+                "erpCode": "SHKUFG039",
+                "productName": "FOOD STREAMER PLATE အစားအပေါင်းခံပြား( 19CM)",
+                "price": 4000,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17675",
+                "erpCode": "SHKUFG037",
+                "productName": "FOOD STREAMER PLATE အစားအပေါင်းခံပြား( 15CM)",
+                "price": 3600,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17646",
+                "erpCode": "SHHDCK004",
+                "productName": "DOG TIMER",
+                "price": 7500,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17645",
+                "erpCode": "SBNFFS014",
+                "productName": "အရွက်ပုံ FRUIT FORK (8PCS)",
+                "price": 1400,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17644",
+                "erpCode": "SBNFFS013",
+                "productName": "HONEY & FLOWER FORK (8PCS)",
+                "price": 2000,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17643",
+                "erpCode": "SBNFFS012",
+                "productName": "TRAFFIC SIGN FORK (8PCS)",
+                "price": 2200,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17642",
+                "erpCode": "SBNFFS011",
+                "productName": "CARTOON FORK (8PCS)",
+                "price": 2400,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17633",
+                "erpCode": "SBNFAB034",
+                "productName": "ခွေးပုံ ထမင်းလုံးပုံဖော်ခွက်",
+                "price": 4200,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17611",
+                "erpCode": "SBNFFS010",
+                "productName": "HALLOWEN ပုံအစုံ ခရင်း (10PCS)",
+                "price": 1600,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17535",
+                "erpCode": "SBNFAB033",
+                "productName": "5 ကန့်ပါ ထမင်းလုံး ပုံဖော်ဗူး",
+                "price": 1300,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17537",
+                "erpCode": "SHKUAC166",
+                "productName": "WOODEN T- SHAPE  SCRAPER",
+                "price": 800,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17536",
+                "erpCode": "SHKUAC165",
+                "productName": "ဘာဂါလုပ်သည့်ခွက် PLASTIC",
+                "price": 1800,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17533",
+                "erpCode": "SBNFAB031",
+                "productName": "DONUT ပုံထမင်းပုံဖော်ခွက်",
+                "price": 1300,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17534",
+                "erpCode": "SBNFAB032",
+                "productName": "HELLO KITTY ထမင်းပုံဖော်ခွက်-1PCS",
+                "price": 3800,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17523",
+                "erpCode": "SFOMCH001",
+                "productName": "OFFICE CHAIR",
+                "price": 399000,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17487",
+                "erpCode": "SHKUKF040",
+                "productName": "POTATO CUTTER",
+                "price": 1800,
+                "imageUrl": null,
+                "variants": []
+            },
+            {
+                "productCode": "P17446",
+                "erpCode": "SHBLHB002",
+                "productName": "SAUSAGE FILLING MACHINE",
+                "price": 83000,
+                "imageUrl": "http://13.228.29.1/productAllImage/SHBLHB002.jpg",
+                "variants": []
+            },
+            {
+                "productCode": "P17447",
+                "erpCode": "SHCABE001",
+                "productName": "HOT DOG MACHINE",
+                "price": 280000,
+                "imageUrl": "http://13.228.29.1/productAllImage/SHCABE001.jpg",
+                "variants": []
+            },
+            {
+                "productCode": "P17110",
+                "erpCode": "SXWSHT029",
+                "productName": "နေကာဦးထုပ် (ဖဲပြားပုံပါ)",
+                "price": 9500,
+                "imageUrl": null,
+                "variants": [
+                    {
+                        "variantCode": "BG/ZZ",
+                        "imageUrl": "http://13.228.29.1/1698909431208_SXWSHT029-bg.jpg"
+                    },
+                    {
+                        "variantCode": "KI/ZZ",
+                        "imageUrl": "http://13.228.29.1/1698909438719_SXWSHT029-ki.jpg"
+                    },
+                    {
+                        "variantCode": "PK/ZZ",
+                        "imageUrl": "http://13.228.29.1/1698909445172_SXWSHT029-pk.jpg"
+                    }
+                ]
+            }
+        ],
+        "meta": {
+            "current_page": 1,
+            "first_page_url": "http://13.228.29.1/api/v1/shop-mobile/products?page=1&limit=20&search=&divisionId=&itemCategoryId=&productCategoryId=",
+            "from": 1,
+            "next_page_url": "http://13.228.29.1/api/v1/shop-mobile/products?page=2&limit=20&search=&divisionId=&itemCategoryId=&productCategoryId=",
+            "path": "http://13.228.29.1/api/v1/shop-mobile/products?page=1&limit=20&search=&divisionId=&itemCategoryId=&productCategoryId=",
+            "per_page": 20,
+            "prev_page_url": null,
+            "to": 20
+        }
+    }
+}
